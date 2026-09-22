@@ -36,7 +36,10 @@ HWP(한글) 문서 작업을 위한 MCP 서버 설정을 관리하는 저장소�
 | 쓰기 | 미지원 | 지원 |
 | SVG 렌더링 | 지원 | 지원 |
 
-HWP 문서를 Markdown으로 변환하는 절차는 [docs/superpowers/plans/2026-07-08-convert-hwp-markdown.md](docs/superpowers/plans/2026-07-08-convert-hwp-markdown.md)에 정리되어 있음.
+### 문서
+
+- [Claude Desktop(Windows) 설정 가이드](docs/setup-claude-desktop-windows.md) — 설치, 설정 파일 위치, 사용 예시, 문제 해결
+- [HWP → Markdown 변환 계획](docs/superpowers/plans/2026-07-08-convert-hwp-markdown.md) — 변환 절차 및 검증 기준
 
 ### 설정 스코프 참고
 
