@@ -25,8 +25,18 @@ HWP(한글) 문서 작업을 위한 MCP 서버 설정을 관리하는 저장소�
 
 ### 전제 조건
 
-- Node.js 및 `npx` 실행 환경이 필요함(`-y` 옵션으로 최초 실행 시 패키지를 자동 설치함).
-- HWP 문서 제어는 한/글이 설치된 Windows 환경에서 동작함. 그 외 OS에서는 서버가 기동되더라도 문서 조작 기능이 제한될 수 있음.
+- Node.js 20 이상이 필요함(`-y` 옵션으로 최초 실행 시 패키지를 자동 설치함).
+- macOS·Windows·Linux를 지원하며, 한컴오피스(한/글) 설치는 필요하지 않음. rhwp(Rust + WebAssembly) 파서를 사용함.
+
+### 기능 범위
+
+| 연산 | `.hwp` | `.hwpx` |
+|---|:---:|:---:|
+| 읽기 | 지원 | 지원 |
+| 쓰기 | 미지원 | 지원 |
+| SVG 렌더링 | 지원 | 지원 |
+
+HWP 문서를 Markdown으로 변환하는 절차는 [docs/superpowers/plans/2026-07-08-convert-hwp-markdown.md](docs/superpowers/plans/2026-07-08-convert-hwp-markdown.md)에 정리되어 있음.
 
 ### 설정 스코프 참고
 
